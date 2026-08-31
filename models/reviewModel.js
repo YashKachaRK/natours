@@ -47,7 +47,7 @@ reviewSchema.statics.calcAverageRating = async function (refToTour) {
     },
   ]);
 
-  console.log(stats);
+
 
   if (stats.length > 0) {
     await Tour.findByIdAndUpdate(refToTour, {
@@ -74,7 +74,7 @@ reviewSchema.post("save", function () {
 //* if user delete review so also update tour model ratingsQuantity and ratingsAverage also
 reviewSchema.pre(/^findOneAnd/, async function () {
   this.r = await this.model.findOne(this.getQuery());
-  console.log(this.r);
+
 });
 
 reviewSchema.post(/^findOneAnd/, async function () {

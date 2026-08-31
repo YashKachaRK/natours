@@ -15,7 +15,7 @@ const AppError = require("./utils/appError");
 const errorController = require("./controller/errorController");
 const apiLogger = require("./utils/logger");
 const limiter = require("./middleware/rateLimit");
-
+const compression = require('compression')
 const app = express();
 
 /*
@@ -70,6 +70,7 @@ app.use(
 */
 
 app.use(apiLogger);
+app.use(compression())
 
 /*
 ===========================================================

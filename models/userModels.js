@@ -119,7 +119,7 @@ userSchema.methods.changedPasswordAfter = function (JWTTimestamp) {
       this.passwordChangeAt.getTime() / 1000,
       10,
     );
-    // console.log(changeTimeStamp, JWTTimestamp)
+  
     return JWTTimestamp < changeTimeStamp; // * If this condtion come false so passord is changed by usuer so we so error please login again
   }
 
@@ -133,7 +133,7 @@ userSchema.methods.createPasswordResetToken = function () {
     .update(resetToken)
     .digest("hex"); // * here we encrypt this token and set in passwordResetToken in database
 
-  // console.log({resetToken} , this.passwordResetToken)
+ 
   this.passwordResetExpires = Date.now() + 10 * 60 * 1000; // *here we set token expires
 
   return resetToken; // * here we return simple token and not encrypt token

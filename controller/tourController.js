@@ -103,7 +103,7 @@ exports.resizeImages = catchAsync(async (req, res, next) => {
 // API :- http://localhost:3000/api/v1/tours/getTop5CheapestPlace
 
 exports.getTop5CheapestPlace = (req, res, next) => {
-  console.log("TOP 5 MIDDLEWARE CALLED");
+
 
   req.queryOptions = {
     ...req.query,
@@ -112,7 +112,6 @@ exports.getTop5CheapestPlace = (req, res, next) => {
     fields: "name,price,difficulty,ratingsAverage",
   };
 
-  console.log("TOP 5 QUERY:", req.queryOptions);
 
   next();
 };

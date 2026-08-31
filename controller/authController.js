@@ -55,7 +55,7 @@ exports.signup = catchAsync(async (req, res, next) => {
    try{
     await new Email(newUser, url).sendWelcome();
    }catch(error){
-    console.log(error)
+     console.log(error)
    }
   res.status(201).json({
     status: "success",
@@ -440,7 +440,7 @@ exports.protect = catchAsync(async (req, res, next) => {
   //* ===========================================================
 
   const decode = await promisify(jwt.verify)(token, process.env.JWT_SECRET); //*promisify() converts a callback-based function into a Promise-based function.
-  //   console.log(decode)
+  
 
   //* ===========================================================
 
@@ -538,7 +538,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
     });
   } catch (error) {
 
-    console.log(error)
+  
     user.passwordResetToken = undefined;
     user.passwordResetExpires = undefined;
     await user.save({ validateBeforeSave: false });

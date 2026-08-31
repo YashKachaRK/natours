@@ -144,7 +144,7 @@ tourSchema.index({ slug: 1 });
 //* ========================================================================================================
 
 tourSchema.pre("save", function () {
-  // console.log("This Data is save",this)
+  
   this.slug = slugify(this.name, { lower: true });
 });
 

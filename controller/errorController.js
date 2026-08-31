@@ -36,7 +36,7 @@ const sendErrorProduction = (error, res) => {
     });
   } else {
     // Programming or unknown error: don't leak internal error details
-    console.error("Error : ", error);
+
 
     res.status(500).json({
       status: "error",

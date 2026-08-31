@@ -1,201 +1,1819 @@
-{"time":"2026-08-31T04:32:29.632Z","method":"GET","url":"/api/v1/test/testApi","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"acd4bc29-3d1e-4900-9e83-eae126c2b66f","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"},"statusCode":500,"responseTime":"10030ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T04:33:34.141Z","method":"GET","url":"/api/v1/test/testApi","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"a8fb77cb-9862-4d2e-947c-5ee621e2d2a0","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"},"statusCode":500,"responseTime":"10010ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T04:34:07.543Z","method":"POST","url":"/api/v1/auth/login","ip":"::1","params":{},"query":{},"body":{"email":"admin@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"4a0af422-4a4b-48df-b08f-531bbfd74032","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"68"},"statusCode":500,"responseTime":"10015ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T04:34:18.199Z","method":"POST","url":"/api/v1/auth/login","ip":"::1","params":{},"query":{},"body":{"email":"admin@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"cbb8d023-79d6-41bc-8d7c-04cee2216a69","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"68"},"statusCode":200,"responseTime":"373ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T04:34:22.441Z","method":"GET","url":"/api/v1/test/testApi","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"5a9a80b2-89a6-421e-afab-5369019d4388","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"},"statusCode":200,"responseTime":"18ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T04:34:49.140Z","method":"GET","url":"/api/v1/test/testApi","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"f0c720ff-a605-4f34-ab8d-fd5ff65e7739","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"},"statusCode":200,"responseTime":"28ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T04:35:10.662Z","method":"GET","url":"/api/v1/test/testApi","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"bc54f48d-4a2a-48ce-8757-ab109dcfcb3c","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"},"statusCode":200,"responseTime":"21ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T04:35:28.347Z","method":"GET","url":"/api/v1/test/testApi","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"02d0266a-4db6-4a88-8f27-0be4de7a0ddc","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"},"statusCode":200,"responseTime":"17ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T04:35:30.099Z","method":"GET","url":"/api/v1/test/testApi","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"5438e6c6-2580-4837-81f5-7ce557f320fd","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"},"statusCode":200,"responseTime":"3ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T04:43:29.692Z","method":"GET","url":"/api/v1/test/testApi","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"86319d72-70df-49ad-95e8-f670f0921bdc","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"},"statusCode":200,"responseTime":"19ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T04:43:50.545Z","method":"GET","url":"/api/v1/test/testApi","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"99b3b5d1-c5cc-4686-861c-8db53fbf8da0","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive"},"statusCode":200,"responseTime":"42ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:05:05.714Z","method":"POST","url":"/api/v1/auth/login","ip":"::1","params":{},"query":{},"body":{"email":"dhruvuser@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"c09f2425-be7a-4a01-88f0-c92847c7a33f","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"75"},"statusCode":401,"responseTime":"362ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:05:07.286Z","method":"POST","url":"/api/v1/auth/login","ip":"::1","params":{},"query":{},"body":{"email":"dhruvuser@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"99dca773-9916-4789-a341-c26bd9c24f14","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"75"},"statusCode":200,"responseTime":"313ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:06:45.281Z","method":"PATCH","url":"/api/v1/users/","ip":"::1","params":{},"query":{},"body":{"name":"Dhruv Bhai"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"770ce322-1db0-40c3-9fd3-3980986643cd","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"35"},"statusCode":404,"responseTime":"1ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:07:12.864Z","method":"PATCH","url":"/api/v1/users/","ip":"::1","params":{},"query":{},"body":{"name":"Dhruv Bhai"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"8a019f09-820c-4f9f-99e4-8e4082e73f0f","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"35"},"statusCode":404,"responseTime":"1ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:08:23.286Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{"name":"Dhruv Bhai"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"0250a92f-d6ca-4e31-868a-1875ed3cd0a7","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"35"},"statusCode":200,"responseTime":"3421ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:08:35.511Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{"name":"Dhruv Bhais"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"ea827f6f-a89f-4cfb-ba27-a46caade71ab","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"36"},"statusCode":200,"responseTime":"3035ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:10:49.402Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"afff2f1d-71df-4a90-ac7e-e6f8f3729bf0","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------048866009502116171100794","content-length":"4012"},"statusCode":400,"responseTime":"17ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:11:04.075Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{"name":"YashKachauis"},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"d3bb03b8-83e7-49ff-a6ea-b71fc20bc65a","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------085168769279581248148403","content-length":"4127"},"statusCode":200,"responseTime":"3096ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:37:18.499Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{"name":"YashKachauis"},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"8edfea42-f5d0-485f-8c3a-7e22057ddb8f","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------000862753157919900103444","content-length":"4127"},"statusCode":200,"responseTime":"3155ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:46:33.257Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{"name":"YashKachauis"},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"5f13d2b6-e3b5-40a1-ac64-ed65e743a704","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------214587575420786534487966","content-length":"4127"},"statusCode":200,"responseTime":"3103ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T05:49:28.983Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{"name":"YashKachauis"},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"f702e673-10a4-4038-a9c0-ee589310801c","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------309948974794361827593653","content-length":"4127"},"statusCode":200,"responseTime":"3130ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:15:05.791Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{"name":"YashKachauis"},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"56f3b3a3-0a02-45e5-8b0d-82fc8a0b305d","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------725413013283555333150900","content-length":"4127"},"statusCode":200,"responseTime":"3250ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:16:08.515Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{"name":"YashKachauis"},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"18adf991-e3b0-46dd-bc19-1cb5d797ee16","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------477658540679738946179076","content-length":"4127"},"statusCode":200,"responseTime":"3001ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:16:58.022Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{"name":"YashKachauis"},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"79de56e0-6004-420a-9bc1-38784337e424","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------302008408355648790256056","content-length":"4127"},"statusCode":200,"responseTime":"3120ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:19:45.114Z","method":"PATCH","url":"/api/v1/users/updateMe","ip":"::1","params":{},"query":{},"body":{"name":"YashKachauis"},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"1366f8f6-b132-4135-9101-5e6b2a0269cb","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------826913757482267104946688","content-length":"4127"},"statusCode":200,"responseTime":"3381ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:32:15.988Z","method":"POST","url":"/api/v1/auth/login","ip":"::1","params":{},"query":{},"body":{"email":"admin@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"cce88cf2-5962-4b03-9bd2-2cf89beb34a2","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"68"},"statusCode":200,"responseTime":"344ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:32:42.394Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"e73f7562-e831-4634-8a23-e5b48afc6ae8","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------791441745959390387220992","content-length":"4017"},"statusCode":500,"responseTime":"23ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:34:54.245Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{"id":"5c88fa8cf4afda39709c2955"},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"e0f33815-9b37-4056-8d19-6e28fb043774","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------595050393429588998449558","content-length":"4017"},"statusCode":202,"responseTime":"17ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:50:58.543Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"60ac6dfd-cd3a-496c-9adb-fe3e9b285efd","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------533799719030475548238673","content-length":"4017"},"statusCode":500,"responseTime":"32ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:51:53.631Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"c19b09ef-ccb3-48f2-b710-1a450f6df846","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------908786425800232329625044","content-length":"53670872"},"statusCode":400,"responseTime":"312ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:52:01.933Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{"id":"5c88fa8cf4afda39709c2955"},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"6b6b2d10-102c-486c-9851-0b0331960d7c","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------259607898789520305949289","content-length":"15888"},"statusCode":202,"responseTime":"18ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T06:53:04.948Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{"id":"5c88fa8cf4afda39709c2955"},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"c838905c-88c1-4ca7-82ce-679dc84b26e6","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------262628303861277889138661","content-length":"15888"},"statusCode":202,"responseTime":"46ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T07:10:21.297Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"90eff5de-b906-4b35-8560-aad0b47c42b4","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------369240603139417088231167","content-length":"15888"},"statusCode":500,"responseTime":"94ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T07:13:18.093Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"e22a21d9-1bab-4226-bc19-2e8cafeb0665","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------524879309400284249450624","content-length":"15888"},"statusCode":500,"responseTime":"95ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T07:15:34.429Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{"id":"5c88fa8cf4afda39709c2955"},"query":{},"body":{"imageCover":"tours-5c88fa8cf4afda39709c2955-1788160534309-cover.jpeg"},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"d8eacb35-dd66-41d0-9540-8867220b46eb","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------718529762433074575071966","content-length":"15888"},"statusCode":202,"responseTime":"125ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T07:25:13.048Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{"id":"5c88fa8cf4afda39709c2955"},"query":{},"body":{"imageCover":"tours-5c88fa8cf4afda39709c2955-1788161112527-cover.jpeg","images":["tours-5c88fa8cf4afda39709c2955-1788161112723-1.jpeg","tours-5c88fa8cf4afda39709c2955-1788161112723-2.jpeg","tours-5c88fa8cf4afda39709c2955-1788161112723-3.jpeg"]},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"ac466db7-1f41-4968-85e7-8b8560945d7f","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------748155896569659174708865","content-length":"15888"},"statusCode":202,"responseTime":"572ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T07:25:40.026Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{"id":"5c88fa8cf4afda39709c2955"},"query":{},"body":{"imageCover":"tours-5c88fa8cf4afda39709c2955-1788161139848-cover.jpeg","images":["tours-5c88fa8cf4afda39709c2955-1788161139939-1.jpeg","tours-5c88fa8cf4afda39709c2955-1788161139940-2.jpeg","tours-5c88fa8cf4afda39709c2955-1788161139942-3.jpeg"]},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"18733d3c-a4e7-4291-995c-91b9221d0985","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------127084416822974362299309","content-length":"15888"},"statusCode":202,"responseTime":"217ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T07:39:01.014Z","method":"PATCH","url":"/api/v1/tours/5c88fa8cf4afda39709c2955","ip":"::1","params":{},"query":{},"body":{},"headers":{"user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"80cf29e9-c7ee-40e4-bb02-3a432a47c13a","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-type":"multipart/form-data; boundary=--------------------------039432157317582645669837","content-length":"119057"},"statusCode":400,"responseTime":"46ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T10:31:34.086Z","method":"POST","url":"/api/v1/auth/signup","ip":"::1","params":{},"query":{},"body":{"name":"Dhruv Bhai","email":"yashkacha321@gmail.com","photo":"user1.jpg","passwordChangeAt":"2026-08-24","role":"user"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"ed7ae652-c9e8-48b0-8e28-3e19c83d2329","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"228"},"statusCode":500,"responseTime":"382ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T10:31:40.348Z","method":"POST","url":"/api/v1/auth/signup","ip":"::1","params":{},"query":{},"body":{"name":"Dhruv Bhai","email":"yashkacha3215@gmail.com","photo":"user1.jpg","passwordChangeAt":"2026-08-24","role":"user"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"bb23020f-4ad5-4298-a4df-0fe95bcd6157","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"229"},"statusCode":500,"responseTime":"322ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T10:34:01.242Z","method":"POST","url":"/api/v1/auth/signup","ip":"::1","params":{},"query":{},"body":{"name":"Dhruv Bhai","email":"yashkacha3215@gmail.com","photo":"user1.jpg","passwordChangeAt":"2026-08-24","role":"user"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"7952a27a-d8ea-42f4-a556-fe3d4897e76d","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"229"},"statusCode":500,"responseTime":"364ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T10:34:07.255Z","method":"POST","url":"/api/v1/auth/signup","ip":"::1","params":{},"query":{},"body":{"name":"Dhruv Bhai","email":"yashkacha32415@gmail.com","photo":"user1.jpg","passwordChangeAt":"2026-08-24","role":"user"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"6ec0ae6d-103a-4719-8275-4a0b9cac4d5a","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"230"},"statusCode":500,"responseTime":"316ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T10:36:09.584Z","method":"POST","url":"/api/v1/auth/signup","ip":"::1","params":{},"query":{},"body":{"name":"Dhruv Bhai","email":"yashkacha32415@gmail.com","photo":"user1.jpg","passwordChangeAt":"2026-08-24","role":"user"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"1b35639f-31a3-46d5-91fc-5de4a216f2cc","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"230"},"statusCode":500,"responseTime":"334ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T10:36:17.310Z","method":"POST","url":"/api/v1/auth/signup","ip":"::1","params":{},"query":{},"body":{"name":"Dhruv Bhai","email":"yashkacha324215@gmail.com","photo":"user1.jpg","passwordChangeAt":"2026-08-24","role":"user"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"3afdc447-e4c7-421c-8283-61467d3c2508","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"231"},"statusCode":201,"responseTime":"3630ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T10:59:44.613Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"dhruvuser@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"8bac8251-a6b3-43ad-bbb1-3001580ef794","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"41"},"statusCode":200,"responseTime":"3180ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:02:04.937Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"dhruvuser@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"9acad05d-0104-4d6f-91a0-701cb5bd8d7e","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"41"},"statusCode":200,"responseTime":"4145ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:05:34.408Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"dhruvuser@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"074f2512-1428-4bc3-bcc6-b5a194413b2b","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"41"},"statusCode":200,"responseTime":"3252ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:05:49.984Z","method":"GET","url":"/api/v1/auth/resetPassword/ac7447c47934d0907e7c860d7799f847562e18cdf7c5a25e684efdfd4bc89141","ip":"::1","params":{},"query":{},"body":{},"headers":{"host":"localhost:3000","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","sec-fetch-site":"cross-site","sec-fetch-mode":"navigate","sec-fetch-user":"?1","sec-fetch-dest":"document","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9"},"statusCode":404,"responseTime":"3ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:05:50.115Z","method":"GET","url":"/favicon.ico","ip":"::1","params":{},"query":{},"body":{},"headers":{"host":"localhost:3000","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36","sec-ch-ua":"\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"","sec-ch-ua-mobile":"?0","accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"image","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9"},"statusCode":404,"responseTime":"1ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:07:25.096Z","method":"PATCH","url":"/api/v1/auth/resetPassword/ac7447c47934d0907e7c860d7799f847562e18cdf7c5a25e684efdfd4bc89141","ip":"::1","params":{"token":"ac7447c47934d0907e7c860d7799f847562e18cdf7c5a25e684efdfd4bc89141"},"query":{},"body":{},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"5974eb3c-ed69-4cfa-aaef-dc525721c117","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"74"},"statusCode":200,"responseTime":"321ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:08:00.653Z","method":"POST","url":"/api/v1/auth/login","ip":"::1","params":{},"query":{},"body":{"email":"dhruvuser@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"12ec4908-be10-46f6-824c-b1db7951e653","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"76"},"statusCode":200,"responseTime":"312ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:14:10.867Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"dhruvuser@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"f803e53f-a76b-4da2-a7db-6e77ff327466","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"41"},"statusCode":500,"responseTime":"2076ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:14:25.281Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"dhruvuser@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"64716921-1b9c-4ea8-a97f-5911269f6d34","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"41"},"statusCode":500,"responseTime":"2061ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:15:26.991Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"dhruvuser@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"ab28e9b3-84ef-4ff3-95b0-32825e64f26e","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"41"},"statusCode":500,"responseTime":"2044ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:15:52.370Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"guide3@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"58cd07ea-3f29-4516-b04a-39aac44fd512","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"38"},"statusCode":500,"responseTime":"2065ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:19:38.205Z","method":"POST","url":"/api/v1/auth/signup","ip":"::1","params":{},"query":{},"body":{"name":"Kacha Yash","email":"kachayash13@gmail.com","photo":"user1.jpg","passwordChangeAt":"2026-08-24","role":"user"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"1ea1b7eb-477d-49c2-8da3-e2f223d87f61","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"227"},"statusCode":500,"responseTime":"2439ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:20:39.740Z","method":"POST","url":"/api/v1/auth/signup","ip":"::1","params":{},"query":{},"body":{"name":"Kacha Yash","email":"kachayash13@gmail.com","photo":"user1.jpg","passwordChangeAt":"2026-08-24","role":"user"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"7f52506e-67a5-424f-8268-2b9e26b64b16","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"227"},"statusCode":500,"responseTime":"327ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:22:34.240Z","method":"POST","url":"/api/v1/auth/signup","ip":"::1","params":{},"query":{},"body":{"name":"Kacha Yash","email":"kachayash123@gmail.com","photo":"user1.jpg","passwordChangeAt":"2026-08-24","role":"user"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"7c746859-e19b-4085-be5e-bc84fcbe740b","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"228"},"statusCode":201,"responseTime":"2547ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:38:01.809Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"kachayash13@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"0d496cc8-e6c9-4540-ac00-073c93ad65eb","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"43"},"statusCode":500,"responseTime":"1879ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:40:44.072Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"kachayash13@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"06d1b91b-cb87-4e1e-a1e0-f467984142de","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"43"},"statusCode":500,"responseTime":"2353ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:43:15.688Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"kachayash13@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"bdc9be93-0a77-4856-be21-0bfa1dbd788e","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"43"},"statusCode":500,"responseTime":"2052ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:49:36.806Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"kachayash13@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"8a49c0cb-3d2c-446f-9b59-a4f9cf1fe1f6","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"43"},"statusCode":500,"responseTime":"2206ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:53:04.006Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"kachayash13@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"a447e8be-56f8-4869-8f27-ea839c174ec4","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"43"},"statusCode":200,"responseTime":"2188ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:56:29.428Z","method":"POST","url":"/api/v1/auth/signup","ip":"::1","params":{},"query":{},"body":{"name":"Kacha Yash","email":"yash@mailsac.com","photo":"user1.jpg","passwordChangeAt":"2026-08-24","role":"user"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"af6ec429-2028-409b-8124-d1c5b45820cb","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"222"},"statusCode":201,"responseTime":"2210ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:58:34.679Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"kachayash13@gmail.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"f2dfaa56-2902-4854-89c1-9632e14f64e0","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"43"},"statusCode":200,"responseTime":"1914ms"}
-===============================================================================================
-===============================================================================================
-{"time":"2026-08-31T11:58:55.737Z","method":"POST","url":"/api/v1/auth/forgotPassword","ip":"::1","params":{},"query":{},"body":{"email":"yash@mailsac.com"},"headers":{"content-type":"application/json","user-agent":"PostmanRuntime/7.56.1","accept":"*/*","cache-control":"no-cache","postman-token":"06f3cd03-39a4-414a-98ac-fd388f5a67be","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"38"},"statusCode":200,"responseTime":"1673ms"}
+
+{
+    "time": "2026-08-31T04:32:29.632Z",
+    "method": "GET",
+    "url": "/api/v1/test/testApi",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "acd4bc29-3d1e-4900-9e83-eae126c2b66f",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "statusCode": 500,
+    "responseTime": "10030ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T04:33:34.141Z",
+    "method": "GET",
+    "url": "/api/v1/test/testApi",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "a8fb77cb-9862-4d2e-947c-5ee621e2d2a0",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "statusCode": 500,
+    "responseTime": "10010ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T04:34:07.543Z",
+    "method": "POST",
+    "url": "/api/v1/auth/login",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "admin@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "4a0af422-4a4b-48df-b08f-531bbfd74032",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "68"
+    },
+    "statusCode": 500,
+    "responseTime": "10015ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T04:34:18.199Z",
+    "method": "POST",
+    "url": "/api/v1/auth/login",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "admin@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "cbb8d023-79d6-41bc-8d7c-04cee2216a69",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "68"
+    },
+    "statusCode": 200,
+    "responseTime": "373ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T04:34:22.441Z",
+    "method": "GET",
+    "url": "/api/v1/test/testApi",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "5a9a80b2-89a6-421e-afab-5369019d4388",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "statusCode": 200,
+    "responseTime": "18ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T04:34:49.140Z",
+    "method": "GET",
+    "url": "/api/v1/test/testApi",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "f0c720ff-a605-4f34-ab8d-fd5ff65e7739",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "statusCode": 200,
+    "responseTime": "28ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T04:35:10.662Z",
+    "method": "GET",
+    "url": "/api/v1/test/testApi",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "bc54f48d-4a2a-48ce-8757-ab109dcfcb3c",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "statusCode": 200,
+    "responseTime": "21ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T04:35:28.347Z",
+    "method": "GET",
+    "url": "/api/v1/test/testApi",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "02d0266a-4db6-4a88-8f27-0be4de7a0ddc",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "statusCode": 200,
+    "responseTime": "17ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T04:35:30.099Z",
+    "method": "GET",
+    "url": "/api/v1/test/testApi",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "5438e6c6-2580-4837-81f5-7ce557f320fd",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "statusCode": 200,
+    "responseTime": "3ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T04:43:29.692Z",
+    "method": "GET",
+    "url": "/api/v1/test/testApi",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "86319d72-70df-49ad-95e8-f670f0921bdc",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "statusCode": 200,
+    "responseTime": "19ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T04:43:50.545Z",
+    "method": "GET",
+    "url": "/api/v1/test/testApi",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "99b3b5d1-c5cc-4686-861c-8db53fbf8da0",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "statusCode": 200,
+    "responseTime": "42ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:05:05.714Z",
+    "method": "POST",
+    "url": "/api/v1/auth/login",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "dhruvuser@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "c09f2425-be7a-4a01-88f0-c92847c7a33f",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "75"
+    },
+    "statusCode": 401,
+    "responseTime": "362ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:05:07.286Z",
+    "method": "POST",
+    "url": "/api/v1/auth/login",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "dhruvuser@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "99dca773-9916-4789-a341-c26bd9c24f14",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "75"
+    },
+    "statusCode": 200,
+    "responseTime": "313ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:06:45.281Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Dhruv Bhai"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "770ce322-1db0-40c3-9fd3-3980986643cd",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "35"
+    },
+    "statusCode": 404,
+    "responseTime": "1ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:07:12.864Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Dhruv Bhai"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "8a019f09-820c-4f9f-99e4-8e4082e73f0f",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "35"
+    },
+    "statusCode": 404,
+    "responseTime": "1ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:08:23.286Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Dhruv Bhai"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "0250a92f-d6ca-4e31-868a-1875ed3cd0a7",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "35"
+    },
+    "statusCode": 200,
+    "responseTime": "3421ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:08:35.511Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Dhruv Bhais"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "ea827f6f-a89f-4cfb-ba27-a46caade71ab",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "36"
+    },
+    "statusCode": 200,
+    "responseTime": "3035ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:10:49.402Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "afff2f1d-71df-4a90-ac7e-e6f8f3729bf0",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------048866009502116171100794",
+        "content-length": "4012"
+    },
+    "statusCode": 400,
+    "responseTime": "17ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:11:04.075Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "YashKachauis"
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "d3bb03b8-83e7-49ff-a6ea-b71fc20bc65a",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------085168769279581248148403",
+        "content-length": "4127"
+    },
+    "statusCode": 200,
+    "responseTime": "3096ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:37:18.499Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "YashKachauis"
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "8edfea42-f5d0-485f-8c3a-7e22057ddb8f",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------000862753157919900103444",
+        "content-length": "4127"
+    },
+    "statusCode": 200,
+    "responseTime": "3155ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:46:33.257Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "YashKachauis"
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "5f13d2b6-e3b5-40a1-ac64-ed65e743a704",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------214587575420786534487966",
+        "content-length": "4127"
+    },
+    "statusCode": 200,
+    "responseTime": "3103ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T05:49:28.983Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "YashKachauis"
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "f702e673-10a4-4038-a9c0-ee589310801c",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------309948974794361827593653",
+        "content-length": "4127"
+    },
+    "statusCode": 200,
+    "responseTime": "3130ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:15:05.791Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "YashKachauis"
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "56f3b3a3-0a02-45e5-8b0d-82fc8a0b305d",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------725413013283555333150900",
+        "content-length": "4127"
+    },
+    "statusCode": 200,
+    "responseTime": "3250ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:16:08.515Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "YashKachauis"
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "18adf991-e3b0-46dd-bc19-1cb5d797ee16",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------477658540679738946179076",
+        "content-length": "4127"
+    },
+    "statusCode": 200,
+    "responseTime": "3001ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:16:58.022Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "YashKachauis"
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "79de56e0-6004-420a-9bc1-38784337e424",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------302008408355648790256056",
+        "content-length": "4127"
+    },
+    "statusCode": 200,
+    "responseTime": "3120ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:19:45.114Z",
+    "method": "PATCH",
+    "url": "/api/v1/users/updateMe",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "YashKachauis"
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "1366f8f6-b132-4135-9101-5e6b2a0269cb",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------826913757482267104946688",
+        "content-length": "4127"
+    },
+    "statusCode": 200,
+    "responseTime": "3381ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:32:15.988Z",
+    "method": "POST",
+    "url": "/api/v1/auth/login",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "admin@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "cce88cf2-5962-4b03-9bd2-2cf89beb34a2",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "68"
+    },
+    "statusCode": 200,
+    "responseTime": "344ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:32:42.394Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "e73f7562-e831-4634-8a23-e5b48afc6ae8",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------791441745959390387220992",
+        "content-length": "4017"
+    },
+    "statusCode": 500,
+    "responseTime": "23ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:34:54.245Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {
+        "id": "5c88fa8cf4afda39709c2955"
+    },
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "e0f33815-9b37-4056-8d19-6e28fb043774",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------595050393429588998449558",
+        "content-length": "4017"
+    },
+    "statusCode": 202,
+    "responseTime": "17ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:50:58.543Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "60ac6dfd-cd3a-496c-9adb-fe3e9b285efd",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------533799719030475548238673",
+        "content-length": "4017"
+    },
+    "statusCode": 500,
+    "responseTime": "32ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:51:53.631Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "c19b09ef-ccb3-48f2-b710-1a450f6df846",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------908786425800232329625044",
+        "content-length": "53670872"
+    },
+    "statusCode": 400,
+    "responseTime": "312ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:52:01.933Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {
+        "id": "5c88fa8cf4afda39709c2955"
+    },
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "6b6b2d10-102c-486c-9851-0b0331960d7c",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------259607898789520305949289",
+        "content-length": "15888"
+    },
+    "statusCode": 202,
+    "responseTime": "18ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T06:53:04.948Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {
+        "id": "5c88fa8cf4afda39709c2955"
+    },
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "c838905c-88c1-4ca7-82ce-679dc84b26e6",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------262628303861277889138661",
+        "content-length": "15888"
+    },
+    "statusCode": 202,
+    "responseTime": "46ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T07:10:21.297Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "90eff5de-b906-4b35-8560-aad0b47c42b4",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------369240603139417088231167",
+        "content-length": "15888"
+    },
+    "statusCode": 500,
+    "responseTime": "94ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T07:13:18.093Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "e22a21d9-1bab-4226-bc19-2e8cafeb0665",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------524879309400284249450624",
+        "content-length": "15888"
+    },
+    "statusCode": 500,
+    "responseTime": "95ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T07:15:34.429Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {
+        "id": "5c88fa8cf4afda39709c2955"
+    },
+    "query": {},
+    "body": {
+        "imageCover": "tours-5c88fa8cf4afda39709c2955-1788160534309-cover.jpeg"
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "d8eacb35-dd66-41d0-9540-8867220b46eb",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------718529762433074575071966",
+        "content-length": "15888"
+    },
+    "statusCode": 202,
+    "responseTime": "125ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T07:25:13.048Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {
+        "id": "5c88fa8cf4afda39709c2955"
+    },
+    "query": {},
+    "body": {
+        "imageCover": "tours-5c88fa8cf4afda39709c2955-1788161112527-cover.jpeg",
+        "images": [
+            "tours-5c88fa8cf4afda39709c2955-1788161112723-1.jpeg",
+            "tours-5c88fa8cf4afda39709c2955-1788161112723-2.jpeg",
+            "tours-5c88fa8cf4afda39709c2955-1788161112723-3.jpeg"
+        ]
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "ac466db7-1f41-4968-85e7-8b8560945d7f",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------748155896569659174708865",
+        "content-length": "15888"
+    },
+    "statusCode": 202,
+    "responseTime": "572ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T07:25:40.026Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {
+        "id": "5c88fa8cf4afda39709c2955"
+    },
+    "query": {},
+    "body": {
+        "imageCover": "tours-5c88fa8cf4afda39709c2955-1788161139848-cover.jpeg",
+        "images": [
+            "tours-5c88fa8cf4afda39709c2955-1788161139939-1.jpeg",
+            "tours-5c88fa8cf4afda39709c2955-1788161139940-2.jpeg",
+            "tours-5c88fa8cf4afda39709c2955-1788161139942-3.jpeg"
+        ]
+    },
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "18733d3c-a4e7-4291-995c-91b9221d0985",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------127084416822974362299309",
+        "content-length": "15888"
+    },
+    "statusCode": 202,
+    "responseTime": "217ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T07:39:01.014Z",
+    "method": "PATCH",
+    "url": "/api/v1/tours/5c88fa8cf4afda39709c2955",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "80cf29e9-c7ee-40e4-bb02-3a432a47c13a",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-type": "multipart/form-data; boundary=--------------------------039432157317582645669837",
+        "content-length": "119057"
+    },
+    "statusCode": 400,
+    "responseTime": "46ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T10:31:34.086Z",
+    "method": "POST",
+    "url": "/api/v1/auth/signup",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Dhruv Bhai",
+        "email": "yashkacha321@gmail.com",
+        "photo": "user1.jpg",
+        "passwordChangeAt": "2026-08-24",
+        "role": "user"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "ed7ae652-c9e8-48b0-8e28-3e19c83d2329",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "228"
+    },
+    "statusCode": 500,
+    "responseTime": "382ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T10:31:40.348Z",
+    "method": "POST",
+    "url": "/api/v1/auth/signup",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Dhruv Bhai",
+        "email": "yashkacha3215@gmail.com",
+        "photo": "user1.jpg",
+        "passwordChangeAt": "2026-08-24",
+        "role": "user"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "bb23020f-4ad5-4298-a4df-0fe95bcd6157",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "229"
+    },
+    "statusCode": 500,
+    "responseTime": "322ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T10:34:01.242Z",
+    "method": "POST",
+    "url": "/api/v1/auth/signup",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Dhruv Bhai",
+        "email": "yashkacha3215@gmail.com",
+        "photo": "user1.jpg",
+        "passwordChangeAt": "2026-08-24",
+        "role": "user"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "7952a27a-d8ea-42f4-a556-fe3d4897e76d",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "229"
+    },
+    "statusCode": 500,
+    "responseTime": "364ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T10:34:07.255Z",
+    "method": "POST",
+    "url": "/api/v1/auth/signup",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Dhruv Bhai",
+        "email": "yashkacha32415@gmail.com",
+        "photo": "user1.jpg",
+        "passwordChangeAt": "2026-08-24",
+        "role": "user"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "6ec0ae6d-103a-4719-8275-4a0b9cac4d5a",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "230"
+    },
+    "statusCode": 500,
+    "responseTime": "316ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T10:36:09.584Z",
+    "method": "POST",
+    "url": "/api/v1/auth/signup",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Dhruv Bhai",
+        "email": "yashkacha32415@gmail.com",
+        "photo": "user1.jpg",
+        "passwordChangeAt": "2026-08-24",
+        "role": "user"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "1b35639f-31a3-46d5-91fc-5de4a216f2cc",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "230"
+    },
+    "statusCode": 500,
+    "responseTime": "334ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T10:36:17.310Z",
+    "method": "POST",
+    "url": "/api/v1/auth/signup",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Dhruv Bhai",
+        "email": "yashkacha324215@gmail.com",
+        "photo": "user1.jpg",
+        "passwordChangeAt": "2026-08-24",
+        "role": "user"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "3afdc447-e4c7-421c-8283-61467d3c2508",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "231"
+    },
+    "statusCode": 201,
+    "responseTime": "3630ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T10:59:44.613Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "dhruvuser@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "8bac8251-a6b3-43ad-bbb1-3001580ef794",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "41"
+    },
+    "statusCode": 200,
+    "responseTime": "3180ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:02:04.937Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "dhruvuser@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "9acad05d-0104-4d6f-91a0-701cb5bd8d7e",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "41"
+    },
+    "statusCode": 200,
+    "responseTime": "4145ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:05:34.408Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "dhruvuser@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "074f2512-1428-4bc3-bcc6-b5a194413b2b",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "41"
+    },
+    "statusCode": 200,
+    "responseTime": "3252ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:05:49.984Z",
+    "method": "GET",
+    "url": "/api/v1/auth/resetPassword/ac7447c47934d0907e7c860d7799f847562e18cdf7c5a25e684efdfd4bc89141",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "statusCode": 404,
+    "responseTime": "3ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:05:50.115Z",
+    "method": "GET",
+    "url": "/favicon.ico",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {},
+    "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"152\", \"Not?A_Brand\";v=\"24\", \"Google Chrome\";v=\"152\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "statusCode": 404,
+    "responseTime": "1ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:07:25.096Z",
+    "method": "PATCH",
+    "url": "/api/v1/auth/resetPassword/ac7447c47934d0907e7c860d7799f847562e18cdf7c5a25e684efdfd4bc89141",
+    "ip": "::1",
+    "params": {
+        "token": "ac7447c47934d0907e7c860d7799f847562e18cdf7c5a25e684efdfd4bc89141"
+    },
+    "query": {},
+    "body": {},
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "5974eb3c-ed69-4cfa-aaef-dc525721c117",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "74"
+    },
+    "statusCode": 200,
+    "responseTime": "321ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:08:00.653Z",
+    "method": "POST",
+    "url": "/api/v1/auth/login",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "dhruvuser@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "12ec4908-be10-46f6-824c-b1db7951e653",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "76"
+    },
+    "statusCode": 200,
+    "responseTime": "312ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:14:10.867Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "dhruvuser@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "f803e53f-a76b-4da2-a7db-6e77ff327466",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "41"
+    },
+    "statusCode": 500,
+    "responseTime": "2076ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:14:25.281Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "dhruvuser@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "64716921-1b9c-4ea8-a97f-5911269f6d34",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "41"
+    },
+    "statusCode": 500,
+    "responseTime": "2061ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:15:26.991Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "dhruvuser@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "ab28e9b3-84ef-4ff3-95b0-32825e64f26e",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "41"
+    },
+    "statusCode": 500,
+    "responseTime": "2044ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:15:52.370Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "guide3@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "58cd07ea-3f29-4516-b04a-39aac44fd512",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "38"
+    },
+    "statusCode": 500,
+    "responseTime": "2065ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:19:38.205Z",
+    "method": "POST",
+    "url": "/api/v1/auth/signup",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Kacha Yash",
+        "email": "kachayash13@gmail.com",
+        "photo": "user1.jpg",
+        "passwordChangeAt": "2026-08-24",
+        "role": "user"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "1ea1b7eb-477d-49c2-8da3-e2f223d87f61",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "227"
+    },
+    "statusCode": 500,
+    "responseTime": "2439ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:20:39.740Z",
+    "method": "POST",
+    "url": "/api/v1/auth/signup",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Kacha Yash",
+        "email": "kachayash13@gmail.com",
+        "photo": "user1.jpg",
+        "passwordChangeAt": "2026-08-24",
+        "role": "user"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "7f52506e-67a5-424f-8268-2b9e26b64b16",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "227"
+    },
+    "statusCode": 500,
+    "responseTime": "327ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:22:34.240Z",
+    "method": "POST",
+    "url": "/api/v1/auth/signup",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Kacha Yash",
+        "email": "kachayash123@gmail.com",
+        "photo": "user1.jpg",
+        "passwordChangeAt": "2026-08-24",
+        "role": "user"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "7c746859-e19b-4085-be5e-bc84fcbe740b",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "228"
+    },
+    "statusCode": 201,
+    "responseTime": "2547ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:38:01.809Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "kachayash13@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "0d496cc8-e6c9-4540-ac00-073c93ad65eb",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "43"
+    },
+    "statusCode": 500,
+    "responseTime": "1879ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:40:44.072Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "kachayash13@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "06d1b91b-cb87-4e1e-a1e0-f467984142de",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "43"
+    },
+    "statusCode": 500,
+    "responseTime": "2353ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:43:15.688Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "kachayash13@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "bdc9be93-0a77-4856-be21-0bfa1dbd788e",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "43"
+    },
+    "statusCode": 500,
+    "responseTime": "2052ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:49:36.806Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "kachayash13@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "8a49c0cb-3d2c-446f-9b59-a4f9cf1fe1f6",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "43"
+    },
+    "statusCode": 500,
+    "responseTime": "2206ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:53:04.006Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "kachayash13@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "a447e8be-56f8-4869-8f27-ea839c174ec4",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "43"
+    },
+    "statusCode": 200,
+    "responseTime": "2188ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:56:29.428Z",
+    "method": "POST",
+    "url": "/api/v1/auth/signup",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "name": "Kacha Yash",
+        "email": "yash@mailsac.com",
+        "photo": "user1.jpg",
+        "passwordChangeAt": "2026-08-24",
+        "role": "user"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "af6ec429-2028-409b-8124-d1c5b45820cb",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "222"
+    },
+    "statusCode": 201,
+    "responseTime": "2210ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:58:34.679Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "kachayash13@gmail.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "f2dfaa56-2902-4854-89c1-9632e14f64e0",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "43"
+    },
+    "statusCode": 200,
+    "responseTime": "1914ms"
+}
+===============================================================================================
+===============================================================================================
+
+{
+    "time": "2026-08-31T11:58:55.737Z",
+    "method": "POST",
+    "url": "/api/v1/auth/forgotPassword",
+    "ip": "::1",
+    "params": {},
+    "query": {},
+    "body": {
+        "email": "yash@mailsac.com"
+    },
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.56.1",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "06f3cd03-39a4-414a-98ac-fd388f5a67be",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "38"
+    },
+    "statusCode": 200,
+    "responseTime": "1673ms"
+}
 ===============================================================================================
 ===============================================================================================
