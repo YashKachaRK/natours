@@ -17,7 +17,7 @@ const apiLogger = require("./utils/logger");
 const limiter = require("./middleware/rateLimit");
 const compression = require('compression')
 const app = express();
-
+console.log()
 /*
 ===========================================================
   SECURITY MIDDLEWARE
