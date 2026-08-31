@@ -10,8 +10,17 @@ const resetPasswordHtml = fs.readFileSync(
   path.join(__dirname, "../templates/email/passwordReset.html"),
   "utf-8",
 );
+const loginTemplateHtml = fs.readFileSync(
+  path.join(__dirname, "../templates/Auth/login.html"),
+  "utf-8",
+);
+
+const updatePasswordHtml = fs.readFileSync(
+  path.join(__dirname, "../templates/Auth/updatePassword.html"),
+  "utf-8",
+);
 module.exports = class Email {
-  constructor(user, url) {
+  constructor(user, url=null) {
     this.to = user.email;
     this.firstname = user.name.split(" ")[0];
     this.url = url;
@@ -70,5 +79,13 @@ module.exports = class Email {
       resetPasswordHtml,
       "Your password is reset valid up to 10 min",
     );
+  }
+
+  async loginMail(){
+    await this.send(loginTemplateHtml,"You are login now!")
+  }
+
+  async updatePasswordMail(){
+    await this.send(updatePasswordHtml , "Your password is updated")
   }
 };

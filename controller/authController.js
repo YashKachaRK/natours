@@ -2,6 +2,8 @@ const crypto = require("crypto");
 const User = require("../models/userModels");
 const catchAsync = require("../utils/catchAsync.js");
 const AppError = require("../utils/appError.js");
+const fs = require("fs");
+const path = require("path");
 const Email = require("../utils/emailHandler.js");
 const jwt = require("jsonwebtoken");
 const { promisify } = require("util");
@@ -51,12 +53,11 @@ const createSendToken = (user, statusCode, res) => {
 
 exports.signup = catchAsync(async (req, res, next) => {
   const newUser = await User.create(req.body);
-  const url = 0;
-   try{
-    await new Email(newUser, url).sendWelcome();
-   }catch(error){
-     console.log(error)
-   }
+  try {
+    await new Email(newUser).sendWelcome();
+  } catch (error) {
+    console.log(error);
+  }
   res.status(201).json({
     status: "success",
     message: "User Created..",
@@ -129,262 +130,7 @@ exports.login = catchAsync(async (req, res, next) => {
         timeStyle: "short",
       });
 
-      const message = `Your account has been temporarily locked after multiple unsuccessful login attempts. You can try signing in again after ${unlockTime}. If you did not attempt to log in, we recommend securing your account.`;
-
-      const html = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Account Temporarily Locked</title>
-</head>
-
-<body style="
-  margin:0;
-  padding:0;
-  background-color:#f4f7fb;
-  font-family:Arial, Helvetica, sans-serif;
-">
-
-<table width="100%" cellpadding="0" cellspacing="0" border="0"
-  style="padding:40px 15px;background-color:#f4f7fb;">
-
-  <tr>
-    <td align="center">
-
-      <table width="600" cellpadding="0" cellspacing="0" border="0"
-        style="
-          max-width:600px;
-          width:100%;
-          background:#ffffff;
-          border-radius:16px;
-          overflow:hidden;
-          box-shadow:0 8px 30px rgba(0,0,0,0.08);
-        ">
-
-        <!-- Header -->
-        <tr>
-          <td align="center"
-            style="
-              background:#111827;
-              padding:35px 25px;
-            ">
-
-            <div style="
-              width:64px;
-              height:64px;
-              line-height:64px;
-              margin:0 auto 18px;
-              border-radius:50%;
-              background:#f59e0b;
-              color:#ffffff;
-              font-size:30px;
-              font-weight:bold;
-            ">
-              🔒
-            </div>
-
-            <h1 style="
-              margin:0;
-              color:#ffffff;
-              font-size:28px;
-              font-weight:700;
-            ">
-              Account Temporarily Locked
-            </h1>
-
-            <p style="
-              margin:10px 0 0;
-              color:#cbd5e1;
-              font-size:15px;
-            ">
-              Your account has been temporarily locked for security.
-            </p>
-
-          </td>
-        </tr>
-
-        <!-- Content -->
-        <tr>
-          <td style="padding:40px 35px;">
-
-            <p style="
-              margin:0 0 18px;
-              color:#111827;
-              font-size:18px;
-              font-weight:600;
-            ">
-              Hello 👋
-            </p>
-
-            <p style="
-              margin:0 0 20px;
-              color:#4b5563;
-              font-size:15px;
-              line-height:1.7;
-            ">
-              We detected multiple unsuccessful login attempts on
-              your account. To protect your account, access has been
-              temporarily locked.
-            </p>
-
-            <!-- Lock Information -->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0"
-              style="
-                background:#fffbeb;
-                border:1px solid #fde68a;
-                border-radius:10px;
-                margin:25px 0;
-              ">
-
-              <tr>
-                <td style="padding:20px;">
-
-                  <p style="
-                    margin:0 0 8px;
-                    color:#92400e;
-                    font-size:15px;
-                    font-weight:700;
-                  ">
-                    🔐 Security Protection
-                  </p>
-
-                  <p style="
-                    margin:0 0 15px;
-                    color:#92400e;
-                    font-size:14px;
-                    line-height:1.6;
-                  ">
-                    Your account has been locked for 10 minutes
-                    because of multiple unsuccessful login attempts.
-                  </p>
-
-                  <p style="
-                    margin:0;
-                    color:#78350f;
-                    font-size:14px;
-                    line-height:1.6;
-                  ">
-                    <strong>You can try again after:</strong><br>
-                    ${unlockTime}
-                  </p>
-
-                </td>
-              </tr>
-
-            </table>
-
-            <!-- Account Status -->
-            <table width="100%" cellpadding="0" cellspacing="0" border="0"
-              style="
-                background:#f8fafc;
-                border-radius:10px;
-                margin-bottom:25px;
-              ">
-
-              <tr>
-                <td style="padding:18px 20px;">
-
-                  <p style="
-                    margin:0 0 6px;
-                    color:#64748b;
-                    font-size:12px;
-                    text-transform:uppercase;
-                    letter-spacing:0.5px;
-                  ">
-                    Account Status
-                  </p>
-
-                  <p style="
-                    margin:0;
-                    color:#d97706;
-                    font-size:16px;
-                    font-weight:700;
-                  ">
-                    ● Temporarily Locked
-                  </p>
-
-                </td>
-              </tr>
-
-            </table>
-
-            <p style="
-              margin:0 0 15px;
-              color:#4b5563;
-              font-size:14px;
-              line-height:1.7;
-            ">
-              If these login attempts were made by you, wait until
-              the time above and then try again with the correct
-              password.
-            </p>
-
-            <p style="
-              margin:0;
-              color:#dc2626;
-              font-size:14px;
-              line-height:1.7;
-              font-weight:600;
-            ">
-              If you did not attempt to log in, please secure your
-              account and change your password as soon as possible.
-            </p>
-
-          </td>
-        </tr>
-
-        <!-- Divider -->
-        <tr>
-          <td style="padding:0 35px;">
-            <div style="
-              height:1px;
-              background:#e5e7eb;
-            "></div>
-          </td>
-        </tr>
-
-        <!-- Footer -->
-        <tr>
-          <td align="center"
-            style="padding:25px 30px 30px;">
-
-            <p style="
-              margin:0 0 8px;
-              color:#6b7280;
-              font-size:12px;
-            ">
-              This is an automated account security notification.
-            </p>
-
-            <p style="
-              margin:0;
-              color:#9ca3af;
-              font-size:12px;
-            ">
-              © 2026 Your Company. All rights reserved.
-            </p>
-
-          </td>
-        </tr>
-
-      </table>
-
-    </td>
-  </tr>
-
-</table>
-
-</body>
-</html>
-`;
-      // await sendEmail({
-      //   email: user.email,
-      //   subject: "Security Alert: Your Account Has Been Temporarily Locked",
-      //   message,
-      //   html,
-      // });
+      await new Email(user).loginMail();
       return next(
         new AppError(
           "Too many incorrect password attempts. Your account is locked for 10 minutes.",
@@ -440,7 +186,6 @@ exports.protect = catchAsync(async (req, res, next) => {
   //* ===========================================================
 
   const decode = await promisify(jwt.verify)(token, process.env.JWT_SECRET); //*promisify() converts a callback-based function into a Promise-based function.
-  
 
   //* ===========================================================
 
@@ -528,7 +273,6 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   //* ===========================================================
   const resetURL = `${req.protocol}://${req.get("host")}/api/v1/auth/resetPassword/${resetToken}`;
 
-  
   try {
     await new Email(user, resetURL).resetPassword();
 
@@ -537,8 +281,6 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
       message: "Token sent to mail",
     });
   } catch (error) {
-
-  
     user.passwordResetToken = undefined;
     user.passwordResetExpires = undefined;
     await user.save({ validateBeforeSave: false });
@@ -651,234 +393,10 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
 
   //* ===========================================================
 
-  const message =
-    "Your password has been updated successfully. You can now use your new password to sign in to your account.";
-  const html = `
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Password Updated Successfully</title>
-</head>
-
-<body style="
-  margin: 0;
-  padding: 0;
-  background-color: #f4f7fb;
-  font-family: Arial, Helvetica, sans-serif;
-">
-
-  <table
-    width="100%"
-    cellpadding="0"
-    cellspacing="0"
-    border="0"
-    style="background-color: #f4f7fb; padding: 40px 15px;"
-  >
-    <tr>
-      <td align="center">
-
-        <!-- Main Container -->
-        <table
-          width="600"
-          cellpadding="0"
-          cellspacing="0"
-          border="0"
-          style="
-            max-width: 600px;
-            width: 100%;
-            background-color: #ffffff;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-          "
-        >
-
-          <!-- Header -->
-          <tr>
-            <td
-              align="center"
-              style="
-                background-color: #111827;
-                padding: 35px 25px;
-              "
-            >
-
-              <div style="
-                width: 64px;
-                height: 64px;
-                line-height: 64px;
-                margin: 0 auto 18px;
-                border-radius: 50%;
-                background-color: #22c55e;
-                color: #ffffff;
-                font-size: 32px;
-                font-weight: bold;
-              ">
-                ✓
-              </div>
-
-              <h1 style="
-                margin: 0;
-                color: #ffffff;
-                font-size: 28px;
-                font-weight: 700;
-              ">
-                Password Updated
-              </h1>
-
-              <p style="
-                margin: 10px 0 0;
-                color: #cbd5e1;
-                font-size: 15px;
-              ">
-                Your account password has been changed successfully.
-              </p>
-
-            </td>
-          </tr>
-
-          <!-- Content -->
-          <tr>
-            <td style="padding: 40px 35px;">
-
-              <p style="
-                margin: 0 0 18px;
-                color: #111827;
-                font-size: 18px;
-                font-weight: 600;
-              ">
-                Hello 👋
-              </p>
-
-              <p style="
-                margin: 0 0 20px;
-                color: #4b5563;
-                font-size: 15px;
-                line-height: 1.7;
-              ">
-                This is a confirmation that your account password was
-                successfully updated.
-              </p>
-
-              <!-- Security Box -->
-              <table
-                width="100%"
-                cellpadding="0"
-                cellspacing="0"
-                border="0"
-                style="
-                  background-color: #f0fdf4;
-                  border: 1px solid #bbf7d0;
-                  border-radius: 10px;
-                  margin: 25px 0;
-                "
-              >
-                <tr>
-                  <td style="padding: 20px;">
-
-                    <p style="
-                      margin: 0 0 8px;
-                      color: #166534;
-                      font-size: 15px;
-                      font-weight: 700;
-                    ">
-                      🔐 Security Notice
-                    </p>
-
-                    <p style="
-                      margin: 0;
-                      color: #166534;
-                      font-size: 14px;
-                      line-height: 1.6;
-                    ">
-                      Your password has been changed. You can now use your
-                      new password the next time you sign in.
-                    </p>
-
-                  </td>
-                </tr>
-              </table>
-
-              <p style="
-                margin: 0 0 15px;
-                color: #4b5563;
-                font-size: 14px;
-                line-height: 1.7;
-              ">
-                If you made this change, no further action is required.
-              </p>
-
-              <p style="
-                margin: 0;
-                color: #dc2626;
-                font-size: 14px;
-                line-height: 1.7;
-                font-weight: 600;
-              ">
-                If you did not change your password, please secure your
-                account immediately.
-              </p>
-
-            </td>
-          </tr>
-
-          <!-- Divider -->
-          <tr>
-            <td style="padding: 0 35px;">
-              <div style="
-                height: 1px;
-                background-color: #e5e7eb;
-              "></div>
-            </td>
-          </tr>
-
-          <!-- Footer -->
-          <tr>
-            <td
-              align="center"
-              style="
-                padding: 25px 30px 30px;
-              "
-            >
-
-              <p style="
-                margin: 0 0 8px;
-                color: #6b7280;
-                font-size: 12px;
-              ">
-                This is an automated security notification.
-              </p>
-
-              <p style="
-                margin: 0;
-                color: #9ca3af;
-                font-size: 12px;
-              ">
-                © 2026 Your Company. All rights reserved.
-              </p>
-
-            </td>
-          </tr>
-
-        </table>
-
-      </td>
-    </tr>
-  </table>
-
-</body>
-</html>
-  `;
   try {
-    // await sendEmail({
-    //   email: currentUser.email,
-    //   subject: "Your Password Has Been Updated Successfully",
-    //   message,
-    //   html,
-    // });
+    
+    await new Email(currentUser )
 
     createSendToken(currentUser, 200, res);
   } catch (error) {
